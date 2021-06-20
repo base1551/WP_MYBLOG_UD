@@ -1,0 +1,32 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sat Apr 17 21:17:28.260558 2021] [mpm_event:notice] [pid 4103:tid 4395099584] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Apr 17 21:17:28.262147 2021] [core:notice] [pid 4103:tid 4395099584] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Sun Apr 18 18:19:12.010016 2021] [mpm_event:notice] [pid 4103:tid 4395099584] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 18 18:19:15.670375 2021] [mpm_event:notice] [pid 21411:tid 4481938880] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Apr 18 18:19:15.672141 2021] [core:notice] [pid 21411:tid 4481938880] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+AH00557: httpd: apr_sockaddr_info_get() failed for MacBook-Air.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 20 22:28:08.209948 2021] [core:warn] [pid 780:tid 4581897664] AH00098: pid file /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 20 22:28:08.215543 2021] [mpm_event:notice] [pid 780:tid 4581897664] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 20 22:28:08.215643 2021] [core:notice] [pid 780:tid 4581897664] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Sun Apr 25 15:29:03.184831 2021] [mpm_event:notice] [pid 780:tid 4581897664] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Thu Apr 29 17:50:52.286193 2021] [mpm_event:notice] [pid 9889:tid 4714915264] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu Apr 29 17:50:52.287604 2021] [core:notice] [pid 9889:tid 4714915264] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Thu Apr 29 22:17:41.136215 2021] [mpm_event:notice] [pid 9889:tid 4714915264] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Thu Apr 29 22:17:44.884477 2021] [mpm_event:notice] [pid 11406:tid 4571260352] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu Apr 29 22:17:44.885180 2021] [core:notice] [pid 11406:tid 4571260352] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Thu Apr 29 23:57:19.389081 2021] [mpm_event:notice] [pid 11406:tid 4571260352] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sat May 08 21:51:17.871562 2021] [mpm_event:notice] [pid 16698:tid 4502336960] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat May 08 21:51:17.872185 2021] [core:notice] [pid 16698:tid 4502336960] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Thu Jun 03 21:16:49.848482 2021] [mpm_event:notice] [pid 16698:tid 4502336960] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 20 13:11:04.696536 2021] [mpm_event:notice] [pid 50851:tid 4488611264] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Jun 20 13:11:04.697334 2021] [core:notice] [pid 50851:tid 4488611264] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'
+[Sun Jun 20 13:11:12.876279 2021] [mpm_event:notice] [pid 50851:tid 4488611264] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 20 13:11:37.425468 2021] [mpm_event:notice] [pid 50893:tid 4301419968] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Jun 20 13:11:37.426165 2021] [core:notice] [pid 50893:tid 4301419968] AH00094: Command line: '/Users/okadaatsuyoshi/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/okadaatsuyoshi/Library/Application Support/Local/run/IB7zJcUQg/conf/apache/apache2.conf'

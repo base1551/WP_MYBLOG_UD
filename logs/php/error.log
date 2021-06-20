@@ -1,0 +1,459 @@
+[17-Apr-2021 12:22:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/translation-install.php on line 68
+[17-Apr-2021 12:22:21 UTC] PHP Stack trace:
+[17-Apr-2021 12:22:21 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/options-general.php:0
+[17-Apr-2021 12:22:21 UTC] PHP   2. wp_get_available_translations() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/options-general.php:159
+[17-Apr-2021 12:22:21 UTC] PHP   3. translations_api() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/translation-install.php:133
+[17-Apr-2021 12:22:21 UTC] PHP   4. trigger_error() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/translation-install.php:68
+[18-Apr-2021 08:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function data() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/startbootstrap-clean-blog-gh-pages/index.php:33
+Stack trace:
+#0 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/okadaats...')
+#2 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php(17): require('/Users/okadaats...')
+#3 {main}
+  thrown in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/startbootstrap-clean-blog-gh-pages/index.php on line 33
+[18-Apr-2021 11:43:06 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 147
+[18-Apr-2021 11:43:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[18-Apr-2021 11:43:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 147
+[18-Apr-2021 11:43:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:33 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:33 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:33 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:33 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:33 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:33 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant M - assumed 'M' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:53:34 UTC] PHP Warning:  A non-numeric value encountered in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98
+[18-Apr-2021 11:53:34 UTC] PHP Stack trace:
+[18-Apr-2021 11:53:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[18-Apr-2021 11:53:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[18-Apr-2021 11:53:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[18-Apr-2021 11:53:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[18-Apr-2021 11:55:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_option(), 0 passed in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php on line 98 and at least 1 expected in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/option.php:31
+Stack trace:
+#0 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php(98): get_option()
+#1 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/okadaats...')
+#2 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/okadaats...')
+#3 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php(17): require('/Users/okadaats...')
+#4 {main}
+  thrown in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/option.php on line 31
+[18-Apr-2021 12:44:40 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/single.php on line 44
+[18-Apr-2021 12:44:40 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[18-Apr-2021 13:00:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image_src(), 0 passed in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/single.php on line 16 and at least 1 expected in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/media.php:951
+Stack trace:
+#0 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/single.php(16): wp_get_attachment_image_src()
+#1 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/okadaats...')
+#2 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/okadaats...')
+#3 /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php(17): require('/Users/okadaats...')
+#4 {main}
+  thrown in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/media.php on line 951
+[18-Apr-2021 13:38:39 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/single.php on line 49
+[18-Apr-2021 13:38:39 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/single.php on line 49
+[18-Apr-2021 13:38:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[18-Apr-2021 13:38:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[08-May-2021 12:53:07 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/update.php on line 143
+[08-May-2021 12:53:07 UTC] PHP Stack trace:
+[08-May-2021 12:53:07 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/update-core.php:0
+[08-May-2021 12:53:07 UTC] PHP   2. do_core_upgrade() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/update-core.php:1070
+[08-May-2021 12:53:07 UTC] PHP   3. Core_Upgrader->upgrade() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/update-core.php:841
+[08-May-2021 12:53:07 UTC] PHP   4. Core_Upgrader->check_files() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/class-core-upgrader.php:95
+[08-May-2021 12:53:07 UTC] PHP   5. get_core_checksums() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/class-core-upgrader.php:400
+[08-May-2021 12:53:07 UTC] PHP   6. trigger_error() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-admin/includes/update.php:143
+[20-Jun-2021 04:39:43 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ']' in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/functions.php on line 8
+[20-Jun-2021 04:39:43 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Jun-2021 04:46:38 UTC] PHP Parse error:  syntax error, unexpected ''footer_nav'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/functions.php on line 10
+[20-Jun-2021 04:46:38 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Jun-2021 04:46:38 UTC] PHP Parse error:  syntax error, unexpected ''footer_nav'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/functions.php on line 10
+[20-Jun-2021 04:46:38 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Jun-2021 04:46:41 UTC] PHP Parse error:  syntax error, unexpected ''footer_nav'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/functions.php on line 10
+[20-Jun-2021 04:46:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Jun-2021 05:09:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:09:49 UTC] PHP Stack trace:
+[20-Jun-2021 05:09:49 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:09:49 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:09:49 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:09:49 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:09:49 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:09:49 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:09:49 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:09:49 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:09:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:09:49 UTC] PHP Stack trace:
+[20-Jun-2021 05:09:49 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:09:49 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:09:49 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:09:49 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:09:49 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:09:49 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:09:49 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:09:49 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:19:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:19:08 UTC] PHP Stack trace:
+[20-Jun-2021 05:19:08 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:19:08 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:19:08 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:19:08 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:19:08 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:19:08 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:19:08 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:19:08 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:19:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:19:09 UTC] PHP Stack trace:
+[20-Jun-2021 05:19:09 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:19:09 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:19:09 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:19:09 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:19:09 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:19:09 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:19:09 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:19:09 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:20:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:20:34 UTC] PHP Stack trace:
+[20-Jun-2021 05:20:34 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:20:34 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:20:34 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:20:34 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:20:34 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:20:34 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:20:34 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:20:34 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:20:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:20:35 UTC] PHP Stack trace:
+[20-Jun-2021 05:20:35 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:20:35 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:20:35 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:20:35 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:20:35 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:20:35 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:20:35 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:20:35 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:20:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:20:38 UTC] PHP Stack trace:
+[20-Jun-2021 05:20:38 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:20:38 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:20:38 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:20:38 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:20:38 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:20:38 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:20:38 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:20:38 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
+[20-Jun-2021 05:20:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/includes/header.php on line 19
+[20-Jun-2021 05:20:38 UTC] PHP Stack trace:
+[20-Jun-2021 05:20:38 UTC] PHP   1. {main}() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:0
+[20-Jun-2021 05:20:38 UTC] PHP   2. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/index.php:17
+[20-Jun-2021 05:20:38 UTC] PHP   3. require_once() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[20-Jun-2021 05:20:38 UTC] PHP   4. include() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[20-Jun-2021 05:20:38 UTC] PHP   5. get_template_part() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-content/themes/MYBLOG/index.php:10
+[20-Jun-2021 05:20:38 UTC] PHP   6. locate_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/general-template.php:204
+[20-Jun-2021 05:20:38 UTC] PHP   7. load_template() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:676
+[20-Jun-2021 05:20:38 UTC] PHP   8. require() /Users/okadaatsuyoshi/Local Sites/mysite/app/public/wp-includes/template.php:732
